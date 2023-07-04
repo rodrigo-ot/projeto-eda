@@ -9,10 +9,10 @@ public class InsertionSort {
 
 
         public static void main(String[] args) {
-            String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-            String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/insertionSort/";
+            String pastaEntrada = "../input/";
+            String pastaSaida = "../output/insertionSort/";
             File diretorio = new File(pastaEntrada);
-            String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/insertionSort/grafico.csv";
+            String csvFile = "../output/insertionSort/grafico.csv";
             String delimiter = ",";
 
             if (diretorio.isDirectory()) {
