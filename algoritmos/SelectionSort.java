@@ -9,10 +9,10 @@ import java.io.File;
 public class SelectionSort {
 
     public static void main(String[] args) {
-            String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-            String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/selectionSort/";
+            String pastaEntrada = "../input/";
+            String pastaSaida = "../output/selectionSort/";
             File diretorio = new File(pastaEntrada);
-            String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/selectionSort/grafico.csv";
+            String csvFile = "../output/selectionSort/grafico.csv";
             String delimiter = ",";
 
             if (diretorio.isDirectory()) {
