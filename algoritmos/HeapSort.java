@@ -8,10 +8,10 @@ import java.io.File;
 public class HeapSort {
 
     public static void main(String[] args) {
-            String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-            String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/heapSort/";
+            String pastaEntrada = "../input/";
+            String pastaSaida = "../output/heapSort/";
             File diretorio = new File(pastaEntrada);
-            String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/heapSort/grafico.csv";
+            String csvFile = "../output/heapSort/grafico.csv";
             String delimiter = ",";
 
             if (diretorio.isDirectory()) {
