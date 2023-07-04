@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class CountingSort {
     public static void main(String[] args) {
-        String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-        String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/countingSort/";
+        String pastaEntrada = "../input/";
+        String pastaSaida = "../output/countingSort/";
         File diretorio = new File(pastaEntrada);
-        String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/countingSort/grafico.csv";
+        String csvFile = "..output/countingSort/grafico.csv";
         String delimiter = ",";
 
         if (diretorio.isDirectory()) {
