@@ -7,7 +7,7 @@ public class CountingSort {
         String pastaEntrada = "../input/";
         String pastaSaida = "../output/countingSort/";
         File diretorio = new File(pastaEntrada);
-        String csvFile = "..output/countingSort/grafico.csv";
+        String csvFile = "../output/countingSort/grafico.csv";
         String delimiter = ",";
 
         if (diretorio.isDirectory()) {
