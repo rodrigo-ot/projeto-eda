@@ -9,10 +9,10 @@ import java.io.File;
 public class MergeSort {
 
     public static void main(String[] args) {
-            String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-            String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/mergeSort/";
+            String pastaEntrada = "../input/";
+            String pastaSaida = "../output/mergeSort/";
             File diretorio = new File(pastaEntrada);
-            String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/mergeSort/grafico.csv";
+            String csvFile = "../output/mergeSort/grafico.csv";
             String delimiter = ",";
 
             if (diretorio.isDirectory()) {
