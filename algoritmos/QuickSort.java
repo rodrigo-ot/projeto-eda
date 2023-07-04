@@ -10,10 +10,10 @@ import java.util.Stack;
 public class QuickSort {
 
     public static void main(String[] args) {
-        String pastaEntrada = "C:/Users/Computador/Desktop/PROJETO EDA/input/";
-        String pastaSaida = "C:/Users/Computador/Desktop/PROJETO EDA/output/quickSort/";
+        String pastaEntrada = "../input/";
+        String pastaSaida = "../output/quickSort/";
         File diretorio = new File(pastaEntrada);
-        String csvFile = "C:/Users/Computador/Desktop/PROJETO EDA/output/quickSort/grafico.csv";
+        String csvFile = "../output/quickSort/grafico.csv";
         String delimiter = ",";
 
         if (diretorio.isDirectory()) {
